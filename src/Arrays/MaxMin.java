@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package Arrays;
+
 import java.util.Arrays;
 
 class Pair{

@@ -1,3 +1,5 @@
+package Arrays;
+
 public class SortOs1s2s {
     public static void main(String[] args) {
         int[] arr={0,2,1,2,0};
