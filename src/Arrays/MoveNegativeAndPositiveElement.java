@@ -2,7 +2,7 @@ package Arrays;
 
 public class MoveNegativeAndPositiveElement {
     public static void main(String[] args) {
-        //Move all negative numbers to beginning and positive to end with constant extra spacess
+        //Move all negative numbers to beginning and positive to end with constant extra space
       int[] Arr={-12, 11, -13, -5, 6, -7, 5, -3, -6,2,8,-9,-7,85,96,-77,65};
       int i=0;
       int j=Arr.length-1;
