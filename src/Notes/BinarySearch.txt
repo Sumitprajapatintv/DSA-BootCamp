@@ -27,5 +27,8 @@ So the comparison Will look Something like this
 
 ------------------------------------------------------------------------------------------------------------------------
 
+OrderAgnostic Binary Search--When you do not know the Array is Asc or descending
+solution-take any two element and Compare
+Best way is Compare first and last element because element may be duplicate
 
 
