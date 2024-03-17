@@ -32,3 +32,12 @@ solution-take any two element and Compare
 Best way is Compare first and last element because element may be duplicate
 
 
+-----------------------------------------------------------------------------------------------------------------------
+
+Ceil Number- smallest number in the array which is greater than or = target
+
+FloorNUmber- greatest number in the array which is greater than or = target
+
+------------------------------------------------------------------------------------------------------------------------
+
+
