@@ -22,13 +22,14 @@ public class EvenNumerDigitInArray {
     }
     static public int countDigit(int number)
     {
-        int count=0;
-        while(number>0)
-        {
-            int rem=number%10;
-            count++;
-            number=number/10;
-        }
-        return count;
+//        int count=0;
+//        while(number>0)
+//        {
+//            int rem=number%10;
+//            count++;
+//            number=number/10;
+//        }
+//        return count;
+        return (int)(Math.log10(number));   //Optimized Way
     }
 }

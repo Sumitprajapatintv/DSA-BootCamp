@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------------------------------------
+    Linear Search MaxComparision is N That means in the Wrost case it can take n number of Comparsion
+
+----------------------------------------------------------------------------------------------------------------------
+Binary Search Algo-
+1-Find the Middle Element
+2-if target>middle search in right
+    else search in left
+3-if target ==middle return ans
+
+
+Why Binary Search?
+Because it takes O(logN) time Complexity
+
+Ex-In wrost case senario We Basically Searching the Element in Half of the array
+that means the total Number of Comparision will be N/2
+So the comparison Will look Something like this
+    N/2,N/4,N/8.........N.2^k=1
+
+    N/2^k=1
+
+    taking both side log
+
+    log(n/2^k)=log(1)
+
+    1=log(n)
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
