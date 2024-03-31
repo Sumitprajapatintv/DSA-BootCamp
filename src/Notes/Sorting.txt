@@ -1,0 +1,9 @@
+BubbleSort-
+Space Complexity- O(1)
+Time Complexity-
+    Best Case- O(n)
+    Wrost Case- O(n2)
+
+->It is Also known as In-place Sorting Algorithm
+
+Note- When J is never swap for the value of i that means array is Sorted
