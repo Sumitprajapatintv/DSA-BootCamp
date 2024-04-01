@@ -7,3 +7,13 @@ Time Complexity-
 ->It is Also known as In-place Sorting Algorithm
 
 Note- When J is never swap for the value of i that means array is Sorted
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Selection Sort-
+  Time Complexity--
+      Best Case-o(n2)
+      Wrost Case - o(n2)
+
+  Stable- No
+  It performs well on Small List
