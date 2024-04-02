@@ -17,3 +17,9 @@ Selection Sort-
 
   Stable- No
   It performs well on Small List
+
+ --------------------------------------------------------------------------------------------------------------------------------
+
+ Insertion Sort=
+    Wrost- O(n2)
+    Best- O(n)
