@@ -23,3 +23,9 @@ Selection Sort-
  Insertion Sort=
     Wrost- O(n2)
     Best- O(n)
+
+
+ ------------------------------------------------------------------------------------------------------------------------------'
+
+ Cyclic Sort-
+        When Given Number from 1 to N Use Cyclic Sort
