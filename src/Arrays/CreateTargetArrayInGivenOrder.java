@@ -1,6 +1,8 @@
 package Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class CreateTargetArrayInGivenOrder {
     public static void main(String[] args) {
@@ -10,13 +12,17 @@ public class CreateTargetArrayInGivenOrder {
 
     }
     static public int[] createTargetArray(int[] nums, int[] index) {
+        List<Integer> ans=new ArrayList<>();
         int[] arr2=new int[index.length];
-            for(int i=0;i<index.length;i++)
+            for(int i=0;i<nums.length;i++)
             {
-                int num=nums[i];
-                int ind=index[i];
-                arr2[ind]=num;
+                ans.add(index[i],nums[i]);
             }
+        for(int i=0;i<nums.length;i++)
+        {
+            arr2[i]=ans.get(i);
+        }
+
         return arr2;
 
     }
