@@ -15,16 +15,21 @@ public class SuffleTheArray {
         System.out.println(Arrays.toString(shuffle(arr,3)));
 
     }
+    //This fucntion will take o(N) complexity both in space and time
+    // Lets reduce this in O(1) space
+//
     static public int[] shuffle(int[] nums, int n) {
-         int[] arr2=new int[2*n];
-         int index=0;
-         for(int i=0;i<n;i++)
-         {
-             arr2[index] = nums[i];
-             arr2[index+1]=nums[i+n];
-             index+=2;
-         }
 
-         return arr2;
+        for(int i=0;i<n;i++)
+        {
+            nums[i+n]+=nums[i]*10000;
+        }
+        for(int i=0;i<n;i++)
+        {
+            nums[2*i]=nums[i+n]/10000;
+            nums[2*i+1]=nums[i+n]%1000;
+        }
+
+        return nums;
     }
 }
