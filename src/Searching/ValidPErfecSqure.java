@@ -6,6 +6,7 @@ public class ValidPErfecSqure {
         System.out.println(isPerfectSquare(num));
     }
     static public boolean isPerfectSquare(int num) {
+        int ans=-1;
           int start=1;
           int end=num/2;
           if(num==1)
