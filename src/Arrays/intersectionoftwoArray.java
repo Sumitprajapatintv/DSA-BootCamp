@@ -28,6 +28,7 @@ public class intersectionoftwoArray {
         {
             arr[k]= ans.get(k);
         }
+        //
         return arr;
     }
 }
