@@ -9,13 +9,12 @@ public class HammingDistance {
     }
     static public int hammingDistance(int x, int y) {
         int ans=x^y;
-        System.out.println(Integer.toBinaryString(ans));
         int count=0;
-        while (ans>0)
+        while (ans!=0)
         {
             int last=ans&1;
 
-            if(last==0)count++;
+            if(last==1)count++;
             ans=ans>>1;
         }
         return count;
