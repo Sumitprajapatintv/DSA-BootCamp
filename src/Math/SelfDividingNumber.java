@@ -14,16 +14,18 @@ public class SelfDividingNumber {
           }
           return ans;
     }
-    static public boolean isSelf(int n)
+    static public boolean isSelf(int  n)
     {
-        while (n>0)
+        int number=n;
+        while (n!=0)
         {
             int lastDiit=n%10;
-            System.out.println(n%lastDiit!=0);
-            if(n%lastDiit!=0)
-            {
-                return false;
-            };
+//            System.out.println(n%lastDiit!=0);
+                if(lastDiit==0 || number%lastDiit!=0)
+                {
+                    return false;
+                };
+
             n=n/10;
         }
         return true;
